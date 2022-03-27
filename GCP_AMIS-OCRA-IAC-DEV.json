@@ -1,0 +1,11 @@
+{
+ "PROJECT_ID": "amis-ocra-dev",
+ "REGION_ZONE": "us-central1",
+ "CLUSTER_NAME": "amis-ocra-env-k8s",
+ "REGISTRY": "gcr.io" ,
+ "URL_SERVICES": "https://sistema-env.amis.com.mx",
+ "URL_RBAC": "http://api.seguridad-amis.com/api/amis/segu/1.0",
+ "SA_STORAGE": "/etc/sistema/",
+ "ENVIRONMENT":"DEV",
+ "DB_INSTANCE":"amis-ocra-dev:us-central1:amis-ocra-sql"
+ }

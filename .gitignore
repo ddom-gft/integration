@@ -1,0 +1,25 @@
+### Git ###
+*.orig
+
+### Terraform ###
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+!iac/state/terraform.tfstate
+!iac/terraform.tfstate
+
+### VIM ###
+*~
+*.swp
+*.swo
+
+### General ###
+*.log
+*.lock*
+*.DS_Store
+
+### VSCode ###
+.vscode/
+
+### IDEA ###
+.idea/
